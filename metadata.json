@@ -1,0 +1,6 @@
+{
+  "name": "R.E.X Games",
+  "description": "Indie game studio developing immersive experiences. Discover our latest games, meet the team, and join our community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

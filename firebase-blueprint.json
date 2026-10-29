@@ -1,0 +1,22 @@
+{
+  "entities": {
+    "game": {
+      "title": "Game",
+      "description": "A game entry",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "genre": { "type": "string" },
+        "status": { "type": "string" },
+        "description": { "type": "string" }
+      },
+      "required": ["title", "genre", "status", "description"]
+    }
+  },
+  "firestore": {
+    "/games/{gameId}": {
+      "schema": "game",
+      "description": "Collection of games"
+    }
+  }
+}

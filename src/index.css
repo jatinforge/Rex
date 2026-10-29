@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+body {
+  background-color: #FFFFFF;
+  color: #111111;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.55;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  color: #111111;
+}
+
+a {
+  text-decoration: none;
+  color: #111111;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-muted {
+  color: #666666;
+}
